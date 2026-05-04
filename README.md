@@ -1,2 +1,5 @@
 # Python---Project
-this is first
+Project Names
+
+1. Tip Calculator
+2. Dead Man's Island

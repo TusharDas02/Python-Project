@@ -1,7 +1,0 @@
-print("Welcome to Tip Calculator!")
-bill = int(input("What was the total bill? Rupees "))
-tip = int(input("How much tip would you like to give? 10, 12, or 15? "))
-percent_bill = bill + (bill*tip/100)
-NoOfPeople= int(input("How many people to split the bill? "))
-new_bill = round(percent_bill/NoOfPeople,2)
-print(f"Each person should pay: Rupees {new_bill}, the total bill is Rupees {percent_bill}")

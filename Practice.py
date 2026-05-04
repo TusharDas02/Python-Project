@@ -1,58 +1,20 @@
-height = int(input("Enter your height in cm: "))
-bill = 0
+# import random as r
+# friends = ["Alice", "Bob", "Charlie", "David", "Emanual"]
 
-if height >= 120:
-    print("You can ride the roller coaster.")
-    age = int(input("Enter your age: "))
-
-    if age <= 12:
-        print("Child tickets are 50")
-        bill = 50
-    
-    elif age >12 and age <= 18:
-        print("Youth tickets are 70")    
-        bill = 70   
-    
-    elif 45 <= age <=55:
-        print("You have a free ride!")
-
-    else:
-        print("Adult tickets are 120")
-        bill = 120
-
-    photo =input("Do you want a photo taken? Y or N:  ")
-
-    if photo == "Y":
-        bill += 30
-
-    print(f"Your total bill is {bill}")
+# friendNo = r.randint(0,4)
+# NoOfFriends = len(friends)
+# print(f"My friend is: {friends[NoOfFriends-1]}")
 
 
-else:
-    print("Sorry, you cannot ride the roller coaster.")
+# import random as r
+# friends = ["Alice", "Bob", "Charlie", "David", "Emanual"]
 
-# print("Welcome to Pizzaria!")
-# size = input("What size pizza do you want? S, M, or L: ")
-# pepperoni = input("Do you want pepperoni? Y or N: ")
-# extra_cheese = input("Do you want extra cheese? Y or N: ") 
+# print(r.choice(friends))
 
-# bill = 0
 
-# if size == "S":
-#     bill += 150
-# elif size == "M":
-#     bill += 200
-# elif size == "L":
-#     bill += 300
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes","Peaches","Cherries","Pears","Tomatoes"]
+vegetables = [ "Spinach", "Kale","Celery","Potatoes"]
 
-# if pepperoni == "Y":
-#     if size == "S":
-#         bill += 50
-#     else:
-#         bill += 100
+dirty_dozen = [fruits, vegetables] 
 
-# if extra_cheese == "Y":
-#     bill += 50
-
-# print(f"Your final bill is {bill}")
-
+print(dirty_dozen[0])
